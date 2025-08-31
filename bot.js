@@ -29,12 +29,13 @@ function createBot() {
    });
 
    bot.loadPlugin(pathfinder);
-   const mcData = require('minecraft-data')(bot.version);
-   const defaultMove = new Movements(bot, mcData);
-   bot.settings.colorsEnabled = false;
-   bot.pathfinder.setMovements(defaultMove);
 
    bot.once('spawn', () => {
+      const mcData = require('minecraft-data')(bot.version);
+      const defaultMove = new Movements(bot,mcData);
+      bot.settings.colorsEnabled = false;
+      console.log(bot.pathfinder)
+      bot.pathfinder.setMovements(defaultMove);
       logger.info("Bot joined to the server");
 
       if (config.utils['auto-auth'].enabled) {

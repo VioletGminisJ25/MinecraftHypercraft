@@ -1,18 +1,18 @@
 {
   "bot-account": {
-    "username": "H2N.DEV",
+    "username": "bot-antiafk",
     "password": "",
-    "type": "mojang"
+    "type": "offline"
   },
 
   "server": {
-    "ip": "HaiLord1207.aternos.me",
-    "port": 30869,
-    "version": "1.19.3"
+    "ip": "andresfeplide-uc6C.aternos.me",
+    "port": 17006,
+    "version": "1.21.4"
   },
 
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
     "y": 0,
     "z": 0
