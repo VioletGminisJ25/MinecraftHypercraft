@@ -6,7 +6,7 @@
   },
 
   "server": {
-    "ip": "fi-01.freezehost.pros",
+    "ip": "fi-01.freezehost.pro",
     "port": 10505,
     "version": "1.21.5"
   },
